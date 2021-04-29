@@ -1,0 +1,33 @@
+extends ./layouts/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen Nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique nisi est, ac accumsan nulla mollis et. Vivamus at massa massa. Integer nec orci et augue viverra tincidunt eget sit amet felis. Phasellus scelerisque efficitur tellus sit amet bibendum. Praesent nec mauris elementum.
+
+                p Donec at orci diam. Curabitur metus augue, gravida in arcu sit amet, tempus pretium odio. Donec pretium sed magna sit amet egestas. Sed quis risus a quam tincidunt aliquet nec vitae elit. Etiam cursus orci eget egestas hendrerit. Praesent vestibulum, eros vitae tempor faucibus, lacus lectus pharetra turpis, et iaculis sapien sem id risus. Mauris eu turpis egestas, semper odio tempor, consectetur ipsum. 
+
+                p Duis elit lacus, iaculis vel tristique ac, luctus in nisl. Donec non consectetur nisl, vitae vulputate tortor. Donec sit amet justo mauris. Mauris eget consectetur lorem, vel tincidunt felis. Aenean in eros ultrices, porta turpis sed, fringilla tortor. Maecenas malesuada ultricies urna eu mollis. In dolor sem.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Aenean in eros ultrices, porta turpis sed, fringilla tortor. Maecenas malesuada ultricies urna eu mollis. In dolor sem.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Destinos 
+                    p Aenean in eros ultrices, porta turpis sed, fringilla tortor. Maecenas malesuada ultricies urna eu mollis. In dolor sem.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Precios 
+                    p Aenean in eros ultrices, porta turpis sed, fringilla tortor. Maecenas malesuada ultricies urna eu mollis. In dolor sem.
